@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="create first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/homeworks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s1-main/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s1-main/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s1-main/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/HW1.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/HW2.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/Affairs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/Affairs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/affair/Affair.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/affair/Affair.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/tests/deleteAffair.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/tests/filterAffairs.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureAddUser.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureAddUserCallback.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnBlur.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnEnter.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/HW4.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c3-SuperCheckbox/SuperCheckbox.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c3-SuperCheckbox/SuperCheckbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c3-SuperCheckbox/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c3-SuperCheckbox/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/HW5.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/layout/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Error404.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Error404.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/PreJunior.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/closeOutline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/editIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/localStorage/localStorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/chevron-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/HW9.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/bll/loadingReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/bll/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw12/HW12.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw12/HW12.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw12/bll/themeReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/HW13.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/HW13.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/images/200.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/images/400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/images/500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/images/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/common/c8-SuperDebouncedInput/SuperDebouncedInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw15/HW15.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw15/HW15.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw15/common/c10-SuperSort/SuperSort.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw15/common/c10-SuperSort/test/pureChange.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw15/common/c9-SuperPagination/SuperPagination.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s2-homeworks/hw15/common/c9-SuperPagination/SuperPagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K2gOuHLCC23eRV6dIROLo89K9C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\projects\\it-kamasutra\\01-hometasks\\homeworks\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="" />
+      <created>1673178078682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673178078682</updated>
+      <workItem from="1673178103687" duration="1500000" />
+      <workItem from="1673179703858" duration="2255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="create first commit" />
+  </component>
+</project>
