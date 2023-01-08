@@ -1,6 +1,7 @@
 
 .message {
 
+
 }
 
 .imageAndText {
@@ -8,10 +9,9 @@
 }
 
 .imageAndText img {
-    width: 200px;
-    border-radius: 1000px;
-    border: 3px solid green; /* Параметры рамки */
-    box-shadow: 0 0 7px #666;
+    width: 192px; height: 192px; /* Ширина и высота */
+    border-radius: 50%; /* Превращаем в круг */
+    background-size: auto 300px; /* Высота фотографии равна высоте элемента */
 
 }
 
@@ -28,6 +28,10 @@
 }
 
 .messageText {
+    background: #007E3E; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
 
 }
 
