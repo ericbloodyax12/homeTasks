@@ -1,40 +1,66 @@
 
 .message {
-
-
+display: flex; /*  */
+    flex-direction: column;
+    align-items: flex-end;
+background-color: white;
 }
 
 .imageAndText {
+    display: flex;
+    gap: 10px;
+    align-items: center; /*центрит элементы блока по вторичной линии по горизонтаоли*/
+    flex-direction: row-reverse;
+    width: 100%;
 
 }
+
+
 
 .imageAndText img {
-    width: 192px; height: 192px; /* Ширина и высота */
-    border-radius: 50%; /* Превращаем в круг */
-    background-size: auto 300px; /* Высота фотографии равна высоте элемента */
-
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(60px at top left, transparent 49%, #4d5156 51%) no-repeat right bottom;
 }
+
 
 .text {
-
+    position: relative;
+    padding: 10px; /* отступ */
+    flex: 1;
+    max-width: 20%;  /*блок стал 25 процентов от ширины родителя*/
+    background-color: cornflowerblue;
+    border-radius:10px ;
+    border: 1px solid grey;
+    overflow-wrap: break-word ; /* изменяет поведение при переполнении txt содержимого */
+    text-align: right;
+   /* min-width: max-content;*/
 }
-
 .text:after {
-
+    transform: scale(-1, 1);
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    right: -9%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left, transparent 49%,cornflowerblue 51%) no-repeat right bottom;
 }
 
 .name {
+    color:white;
 
 }
 
 .messageText {
-    background: #007E3E; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    padding: 10px; /* Поля вокруг текста */
-    border-radius: 5px; /* Уголки */
+    color:white;
+
 
 }
 
 .time {
+    color:black;
 
 }

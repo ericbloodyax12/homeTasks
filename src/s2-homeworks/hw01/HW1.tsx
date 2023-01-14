@@ -48,7 +48,7 @@ export const friendMessage0: MessageType = {
         name: 'Brad', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
+        text: 'Hi, Eric, im your fan ;)', // можно менять
         time: '22:00', // можно менять
     },
 }

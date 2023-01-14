@@ -1,31 +1,58 @@
 .friendMessage {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 
 }
 
 .friendImageAndText {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
 
 }
 
 .friendImageAndText img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 
 }
 
 .friendText {
+    position: relative;
+    padding: 10px; /* отступ */
+    flex: 1;
+    max-width: 20%;  /*блок стал 25 процентов от ширины родителя*/
+    background-color:silver;
+    border-radius:10px ;
+    border: 1px solid whitesmoke;
+    overflow-wrap: break-word ; /* изменяет поведение при переполнении txt содержимого */
 
 }
 
 .friendText:after {
+    content: "";
+    position: absolute;
+    bottom: 1%;
+    right: 97%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left, transparent 49%,  silver 51%) no-repeat right bottom;
 
 }
 
 .friendName {
-
+color: black;
 }
-
 .friendMessageText {
+color: black;
 
 }
 
 .friendTime {
+color: black;
 
 }
