@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add first styles">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/HW1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/HW1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <workItem from="1673179703858" duration="16719000" />
       <workItem from="1673627366722" duration="7220000" />
       <workItem from="1673642786957" duration="57000" />
-      <workItem from="1673695259660" duration="17208000" />
+      <workItem from="1673695259660" duration="19659000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -117,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673199448883</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add styles">
+      <created>1673717390531</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673717390531</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,9 +139,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create first commit" />
     <MESSAGE value="* 1 - описать тип MessageType&#10;* 2 - описать тип MessagePropsType в файле Message.tsx&#10;* 3 - в файле Message.tsx отобразить приходящие данные&#10;* 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx" />
-    <MESSAGE value="add styles" />
     <MESSAGE value="add first styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add first styles" />
+    <MESSAGE value="add styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add styles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
