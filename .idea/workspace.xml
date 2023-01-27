@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="complete HW2">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s1-main/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/Affairs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/Affairs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +143,8 @@
       <workItem from="1674234718679" duration="12451000" />
       <workItem from="1674251289470" duration="94000" />
       <workItem from="1674759469494" duration="2356000" />
-      <workItem from="1674769078568" duration="7986000" />
+      <workItem from="1674769078568" duration="8158000" />
+      <workItem from="1674824242778" duration="4278000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -207,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674249586167</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE">
+      <created>1674777236439</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674777236439</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +240,8 @@
     <MESSAGE value="add styles" />
     <MESSAGE value="fix bugs add new property" />
     <MESSAGE value="complete HW2" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete HW2" />
+    <MESSAGE value="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

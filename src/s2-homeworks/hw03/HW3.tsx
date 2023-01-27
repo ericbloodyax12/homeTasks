@@ -13,8 +13,8 @@ import GreetingContainer from './GreetingContainer'
 * 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE
 * 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE
 * 8 - в файле GreetingContainer.tsx вычислить количество добавленных и имя последнего (totalUsers, lastUserName) //todo
-* 9 - в файле Greeting.tsx дописать типизацию пропсов //todo
-* 10 - в файле Greeting.tsx вычислить inputClass в зависимости от наличия ошибки //todo
+* 9 - в файле Greeting.tsx дописать типизацию пропсов //todo DONE
+* 10 - в файле Greeting.tsx вычислить inputClass в зависимости от наличия ошибки //todo DONE
 * 11 - сделать стили в соответствии с дизайном //todo
 * */
 

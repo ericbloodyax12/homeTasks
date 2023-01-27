@@ -1,28 +1,37 @@
 .greetingForm {
+    flex-direction: column;
+
 }
 
 .inputAndButtonContainer {
 }
 
 .error {
+    color: #cc0000;
 }
 
 .input {
 }
 
 .input:focus {
+
 }
 
 .errorInput {
+    color: #cc0000;
+  box-shadow: #cc0000;
+    border: 2px solid red;
 }
 
 .button {
 }
 
 .button:focus {
+    color: #00cc22;
 }
 
 .button:active {
+    color: #00cc22;
 }
 
 .button:disabled {
@@ -32,4 +41,5 @@
 }
 
 .greeting {
+color: #0066cc;
 }
