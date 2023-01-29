@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="complete 4th task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/Affairs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/Affairs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" afterDir="false" />
     </list>
@@ -38,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/projects/it-kamasutra/01-hometasks/homeworks/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\projects\\it-kamasutra\\01-hometasks\\homeworks\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/Projects/it-kamasutra/01-hometasks/homeworks/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\Projects\\it-kamasutra\\01-hometasks\\homeworks\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Jest.name 3">
-    <configuration name="name 1 (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Jest.name 2">
+    <configuration name="name 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -62,19 +58,6 @@
       <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureAddUser.test.tsx" />
       <test-names>
         <test-name value="name 1" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="name 2 (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnEnter.test.tsx" />
-      <test-names>
-        <test-name value="name 2" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -117,13 +100,23 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.name 2" />
+        <item itemvalue="Jest.name 1" />
         <item itemvalue="Jest.name 3" />
         <item itemvalue="Jest.name 3 (1)" />
-        <item itemvalue="Jest.name 2 (1)" />
-        <item itemvalue="Jest.name 2" />
-        <item itemvalue="Jest.name 1 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +137,9 @@
       <workItem from="1674251289470" duration="94000" />
       <workItem from="1674759469494" duration="2356000" />
       <workItem from="1674769078568" duration="8158000" />
-      <workItem from="1674824242778" duration="4278000" />
+      <workItem from="1674824242778" duration="5248000" />
+      <workItem from="1674835053581" duration="168000" />
+      <workItem from="1675009447547" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -216,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674777236439</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="complete 4th task">
+      <created>1674828634288</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674828634288</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +243,8 @@
     <MESSAGE value="fix bugs add new property" />
     <MESSAGE value="complete HW2" />
     <MESSAGE value="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE" />
+    <MESSAGE value="complete 4th task" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete 4th task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
