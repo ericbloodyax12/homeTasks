@@ -1,4 +1,5 @@
 .button {
+    margin: 10px;
 }
 
 .disabled {
@@ -8,9 +9,13 @@
 }
 
 .default {
+    background: green;
+    color: lightgreen;
+    outline: none;
 }
 
 .red {
+    background-color: #cc0000;
 }
 
 .default:hover {
