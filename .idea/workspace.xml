@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="fix bugs">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="complete finalClassName in SuperButton.tsx&#10;complete onChangeCallback in SuperCheckbox.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c3-SuperCheckbox/SuperCheckbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c3-SuperCheckbox/SuperCheckbox.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +142,7 @@
       <workItem from="1675009447547" duration="3016000" />
       <workItem from="1675861099906" duration="3768000" />
       <workItem from="1677082678216" duration="586000" />
-      <workItem from="1677658843347" duration="7971000" />
+      <workItem from="1677658843347" duration="8900000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -231,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675011872683</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="complete finalClassName in SuperButton.tsx&#10;complete onChangeCallback in SuperCheckbox.tsx">
+      <created>1677667822232</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677667822232</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +262,8 @@
     <MESSAGE value="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE" />
     <MESSAGE value="complete 4th task" />
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="complete finalClassName in SuperButton.tsx&#10;complete onChangeCallback in SuperCheckbox.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete finalClassName in SuperButton.tsx&#10;complete onChangeCallback in SuperCheckbox.tsx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

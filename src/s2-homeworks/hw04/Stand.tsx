@@ -35,7 +35,9 @@ const Stand = () => {
                                     : 'Error'
                             )
                             setValue('')
+
                         }}
+                        onClick={(e:React.MouseEvent<HTMLElement>)=>setError('')}
                     />
                 </div>
             </div>
