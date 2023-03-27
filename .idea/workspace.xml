@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="complete finalClassName in SuperButton.tsx&#10;complete onChangeCallback in SuperCheckbox.tsx">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add onClick on SuperInputText">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s1-main/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs.jest.jest_package&quot;: &quot;D:/Projects/it-kamasutra/01-hometasks/homeworks/node_modules/react-scripts&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\it-kamasutra\\01-hometasks\\homeworks\\node_modules\\typescript\\lib&quot;,
@@ -142,7 +149,9 @@
       <workItem from="1675009447547" duration="3016000" />
       <workItem from="1675861099906" duration="3768000" />
       <workItem from="1677082678216" duration="586000" />
-      <workItem from="1677658843347" duration="8900000" />
+      <workItem from="1677658843347" duration="9785000" />
+      <workItem from="1679830204454" duration="2397000" />
+      <workItem from="1679920707297" duration="7717000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -235,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677667822232</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add onClick on SuperInputText">
+      <created>1677668605677</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677668605677</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +279,8 @@
     <MESSAGE value="complete 4th task" />
     <MESSAGE value="fix bugs" />
     <MESSAGE value="complete finalClassName in SuperButton.tsx&#10;complete onChangeCallback in SuperCheckbox.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete finalClassName in SuperButton.tsx&#10;complete onChangeCallback in SuperCheckbox.tsx" />
+    <MESSAGE value="add onClick on SuperInputText" />
+    <option name="LAST_COMMIT_MESSAGE" value="add onClick on SuperInputText" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
