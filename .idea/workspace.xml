@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add routes for 3 juniors components&#10;add isActive class">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add logic in onEnterCallback, onBlurCallback, onDoubleClickCallBack in SuperEditableSpan.tsx&#10;add logic in restore function in localStorage.ts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +155,8 @@
       <workItem from="1679937682594" duration="2656000" />
       <workItem from="1679943209725" duration="916000" />
       <workItem from="1680188472740" duration="1202000" />
-      <workItem from="1680270264649" duration="3396000" />
+      <workItem from="1680270264649" duration="4474000" />
+      <workItem from="1680280443371" duration="2589000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679930284350</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add logic in onEnterCallback, onBlurCallback, onDoubleClickCallBack in SuperEditableSpan.tsx&#10;add logic in restore function in localStorage.ts">
+      <created>1680274962525</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680274962525</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +300,8 @@
     <MESSAGE value="complete finalClassName in SuperButton.tsx&#10;complete onChangeCallback in SuperCheckbox.tsx" />
     <MESSAGE value="add onClick on SuperInputText" />
     <MESSAGE value="add routes for 3 juniors components&#10;add isActive class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add routes for 3 juniors components&#10;add isActive class" />
+    <MESSAGE value="add logic in onEnterCallback, onBlurCallback, onDoubleClickCallBack in SuperEditableSpan.tsx&#10;add logic in restore function in localStorage.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logic in onEnterCallback, onBlurCallback, onDoubleClickCallBack in SuperEditableSpan.tsx&#10;add logic in restore function in localStorage.ts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
