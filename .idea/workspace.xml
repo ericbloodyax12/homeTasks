@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx&#10;Change in hw15 value:number on value: string">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="feat: -add logic in homeWorkReducer.ts&#10;-add view on name and age">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,7 @@
       <workItem from="1680188472740" duration="1202000" />
       <workItem from="1680270264649" duration="4474000" />
       <workItem from="1680280443371" duration="6435000" />
-      <workItem from="1681750104316" duration="6641000" />
+      <workItem from="1681750104316" duration="8149000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -280,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680283800854</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: -add logic in homeWorkReducer.ts&#10;-add view on name and age">
+      <created>1681757592890</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681757592891</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +315,8 @@
     <MESSAGE value="add logic in onEnterCallback, onBlurCallback, onDoubleClickCallBack in SuperEditableSpan.tsx&#10;add logic in restore function in localStorage.ts" />
     <MESSAGE value="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx" />
     <MESSAGE value="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx&#10;Change in hw15 value:number on value: string" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx&#10;Change in hw15 value:number on value: string" />
+    <MESSAGE value="feat: -add logic in homeWorkReducer.ts&#10;-add view on name and age" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: -add logic in homeWorkReducer.ts&#10;-add view on name and age" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
