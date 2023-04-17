@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add logic in onEnterCallback, onBlurCallback, onDoubleClickCallBack in SuperEditableSpan.tsx&#10;add logic in restore function in localStorage.ts">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx&#10;Change in hw15 value:number on value: string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,56 +56,56 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="name 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.check age 18">
+    <configuration name="Testing sorts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureAddUser.test.tsx" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
       <test-names>
-        <test-name value="name 1" />
+        <test-name value="Testing sorts" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="name 2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="check age 18" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureAddUser.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
       <test-names>
-        <test-name value="name 2" />
+        <test-name value="check age 18" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="name 3 (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="sort name down" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnBlur.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
       <test-names>
-        <test-name value="name 3" />
+        <test-name value="sort name down" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="name 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="sort name up" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureAddUser.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
       <test-names>
-        <test-name value="name 3" />
+        <test-name value="sort name up" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.check age 18" />
+        <item itemvalue="Jest.Testing sorts" />
+        <item itemvalue="Jest.sort name down" />
+        <item itemvalue="Jest.sort name up" />
         <item itemvalue="npm.start" />
-        <item itemvalue="Jest.name 2" />
-        <item itemvalue="Jest.name 1" />
-        <item itemvalue="Jest.name 3" />
-        <item itemvalue="Jest.name 3 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +158,8 @@
       <workItem from="1679943209725" duration="916000" />
       <workItem from="1680188472740" duration="1202000" />
       <workItem from="1680270264649" duration="4474000" />
-      <workItem from="1680280443371" duration="2589000" />
+      <workItem from="1680280443371" duration="6435000" />
+      <workItem from="1681750104316" duration="6641000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -270,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680274962525</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx&#10;Change in hw15 value:number on value: string">
+      <created>1680283800854</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680283800854</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +311,9 @@
     <MESSAGE value="add onClick on SuperInputText" />
     <MESSAGE value="add routes for 3 juniors components&#10;add isActive class" />
     <MESSAGE value="add logic in onEnterCallback, onBlurCallback, onDoubleClickCallBack in SuperEditableSpan.tsx&#10;add logic in restore function in localStorage.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logic in onEnterCallback, onBlurCallback, onDoubleClickCallBack in SuperEditableSpan.tsx&#10;add logic in restore function in localStorage.ts" />
+    <MESSAGE value="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx" />
+    <MESSAGE value="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx&#10;Change in hw15 value:number on value: string" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx&#10;Change in hw15 value:number on value: string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
