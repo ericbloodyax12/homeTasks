@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="refactor: add sort for case &quot;check&quot;" />
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="refactor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,19 +91,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="sort name up" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
-      <test-names>
-        <test-name value="sort name up" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -111,13 +101,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.check age 18" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.Testing sorts" />
         <item itemvalue="Jest.sort name down" />
-        <item itemvalue="Jest.sort name up" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,8 @@
       <workItem from="1680188472740" duration="1202000" />
       <workItem from="1680270264649" duration="4474000" />
       <workItem from="1680280443371" duration="6435000" />
-      <workItem from="1681750104316" duration="8540000" />
+      <workItem from="1681750104316" duration="9181000" />
+      <workItem from="1681820387953" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -286,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681760400384</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refactor">
+      <created>1681760821201</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681760821201</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +329,8 @@
     <MESSAGE value="add logic in onChangeCallback in SuperSelect.tsx&#10;add logic in onChangeCallback in SuperRadio.tsx&#10;add name, checked, value in SuperRadio.tsx&#10;Change in hw15 value:number on value: string" />
     <MESSAGE value="feat: -add logic in homeWorkReducer.ts&#10;-add view on name and age" />
     <MESSAGE value="refactor: add sort for case &quot;check&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: add sort for case &quot;check&quot;" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
