@@ -1,34 +1,59 @@
-import React, {useState} from 'react'
+import React, {MouseEventHandler, useState} from 'react'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import {restoreState} from '../hw06/localStorage/localStorage'
 import s from './Clock.module.css'
 
+
+let msInSec = (sec: number) => 1000 * sec
+let timeCreator = (currentDate: Date) => {
+    let time = [
+        currentDate.getHours(),
+        currentDate.getMinutes(),
+        currentDate.getSeconds()
+    ].map((el) => el <= 9 ? `0${el}` : `${el}`)
+    return time.join(":")
+}
+let dateCreator = (currentDate: Date) => {
+    let time = [
+        currentDate.getDate(),
+        currentDate.getMonth()+1,
+        currentDate.getFullYear()
+    ].map((el) => el <= 9 ? `0${el}` : `${el}`)
+    return time.join(".")
+}
+
 function Clock() {
+
     const [timerId, setTimerId] = useState<number | undefined>(undefined)
     // for autotests // не менять // можно подсунуть в локалСторэдж нужную дату, чтоб увидеть как она отображается
-    const [date, setDate] = useState<Date>(new Date(restoreState('hw9-date', Date.now())))
+    const [date, setDate] = useState<Date>(new Date(restoreState('hw9-date', (Date.now()))))
     const [show, setShow] = useState<boolean>(false)
 
+    const [ownDate, setOwnDate] = useState<Date | undefined>(undefined)
     const start = () => {
+        let res = window.setInterval(() => {
+            setOwnDate(new Date())
+        }, msInSec(1))
         // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
         // сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
-
+        setTimerId(res)
     }
-
     const stop = () => {
+        window.clearInterval(timerId)
+        setTimerId(undefined)
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
-
     }
-
-    const onMouseEnter = () => { // пишут студенты // показать дату если наведена мышка
-
+    const onMouseEnter = (e:React.MouseEvent<HTMLDivElement>) => {
+        console.log(e.target, 'hw9-watch')
+        setShow(true)
+        // пишут студенты // показать дату если наведена мышка
     }
     const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
-
+        setShow(false)
     }
 
-    const stringTime = 'date->time' || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
-    const stringDate = 'date->date' || <br/> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
+    const stringTime = timeCreator(ownDate ?? new Date()) || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
+    const stringDate = dateCreator(ownDate ?? new Date()) || <br/> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
 
     // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
     const stringDay = 'date->day' || <br/> // пишут студенты
@@ -42,7 +67,7 @@ function Clock() {
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
             >
-                <span id={'hw9-day'}>{stringDay}</span>,{' '}
+                <span id={'hw9-day'}>{stringDate}</span>,{' '}
                 <span id={'hw9-time'}>
                     <strong>{stringTime}</strong>
                 </span>
@@ -53,7 +78,7 @@ function Clock() {
                     {show ? (
                         <>
                             <span id={'hw9-month'}>{stringMonth}</span>,{' '}
-                            <span id={'hw9-date'}>{stringDate}</span>
+                            <span id={'hw9-date'}>{stringDay}</span>
                         </>
                     ) : (
                         <>
@@ -66,14 +91,14 @@ function Clock() {
             <div className={s.buttonsContainer}>
                 <SuperButton
                     id={'hw9-button-start'}
-                    disabled={true} // пишут студенты // задизэйблить если таймер запущен
+                    disabled={!!timerId} // пишут студенты // задизэйблить если таймер запущен
                     onClick={start}
                 >
                     start
                 </SuperButton>
                 <SuperButton
                     id={'hw9-button-stop'}
-                    disabled={true} // пишут студенты // задизэйблить если таймер не запущен
+                    disabled={!timerId} // пишут студенты // задизэйблить если таймер не запущен
                     onClick={stop}
                 >
                     stop
