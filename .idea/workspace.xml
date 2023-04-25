@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add logic on stop, start, onMouseEnter, onMouseLeave">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="refactoring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,9 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="Jest.check age 18" />
-        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.Testing sorts" />
         <item itemvalue="Jest.sort name down" />
       </list>
@@ -310,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682177529981</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="refactoring">
+      <created>1682449682504</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682449682504</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +352,8 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="fix .sort" />
     <MESSAGE value="add logic on stop, start, onMouseEnter, onMouseLeave" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logic on stop, start, onMouseEnter, onMouseLeave" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
