@@ -76,8 +76,8 @@ function Clock() {
                 <div className={s.more}>
                     {show ? (
                         <>
-                            <span id={'hw9-month'}>{stringDate}</span>,{' '}
-                            <span id={'hw9-date'}>{stringMonth}</span>
+                            <span id={'hw9-month'}>{stringMonth}</span>,{' '}
+                            <span id={'hw9-date'}>{stringDate}</span>
                         </>
                     ) : (
                         <>
