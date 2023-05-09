@@ -4,7 +4,7 @@ import {restoreState} from '../hw06/localStorage/localStorage'
 import s from './Clock.module.css'
 
 
-let msToSec = (sec: number) => 1000 * sec
+export let msToSec = (sec: number) => 1000 * sec
 let timeCreator = (currentDate: Date) => {
     let time = [
         currentDate.getHours(),
