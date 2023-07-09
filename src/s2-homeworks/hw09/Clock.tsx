@@ -9,7 +9,7 @@ let timeCreator = (currentDate: Date) => {
     let time = [
         currentDate.getHours(),
         currentDate.getMinutes(),
-        currentDate.getSeconds()
+       // currentDate.getSeconds()
     ].map((el) => el <= 9 ? `0${el}` : `${el}`)
     return time.join(":")
 }
