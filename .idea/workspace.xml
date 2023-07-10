@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="feat: -add change logic, -add  themeReducer logic, themeId, add props for SuperSelect">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="feat: -change data format in time in hw9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" afterDir="false" />
     </list>
@@ -164,7 +164,8 @@
       <workItem from="1683635451407" duration="6813000" />
       <workItem from="1683963456489" duration="7690000" />
       <workItem from="1686382684885" duration="7245000" />
-      <workItem from="1688897939351" duration="1371000" />
+      <workItem from="1688897939351" duration="2269000" />
+      <workItem from="1688988237968" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -369,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686389618146</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat: -change data format in time in hw9">
+      <created>1688899414244</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688899414245</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="* 1 - описать тип MessageType&#10;* 2 - описать тип MessagePropsType в файле Message.tsx&#10;* 3 - в файле Message.tsx отобразить приходящие данные&#10;* 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx" />
     <MESSAGE value="add first styles" />
     <MESSAGE value="add styles" />
     <MESSAGE value="fix bugs add new property" />
@@ -412,7 +419,8 @@
     <MESSAGE value="testing" />
     <MESSAGE value="feat: -add change logic, SuperRange props" />
     <MESSAGE value="feat: -add change logic, -add  themeReducer logic, themeId, add props for SuperSelect" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: -add change logic, -add  themeReducer logic, themeId, add props for SuperSelect" />
+    <MESSAGE value="feat: -change data format in time in hw9" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: -change data format in time in hw9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

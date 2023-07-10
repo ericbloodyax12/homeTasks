@@ -9,8 +9,8 @@ let timeCreator = (currentDate: Date) => {
     let time = [
         currentDate.getHours(),
         currentDate.getMinutes(),
-       // currentDate.getSeconds()
-    ].map((el) => el <= 9 ? `0${el}` : `${el}`)
+        currentDate.getSeconds()
+    ].map((el) => el <= 9 ? `0${el}`:`${el}`)
     return time.join(":")
 }
 let dateCreator = (currentDate: Date) => {
@@ -18,7 +18,7 @@ let dateCreator = (currentDate: Date) => {
         currentDate.getDate(),
         currentDate.getMonth()+1,
         currentDate.getFullYear()
-    ].map((el) => el <= 9 ? `0${el}` : `${el}`)
+    ].map((el) => el <= 9 ? `0${el}`:`${el}`)
     return time.join(".")
 } // date?.toLocaleDateString("ru")
 
@@ -51,11 +51,11 @@ function Clock() {
     }
 
     const stringTime = timeCreator(date) || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
-    const stringMonth = date?.toLocaleDateString("en",{month: "long"}) || <br/> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
+    const stringMonth = date?.toLocaleDateString("en-US",{month: "long"}) || <br/> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
 
 
     // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
-    const stringDay = date?.toLocaleDateString("en",{weekday: "long"}) || <br/> // пишут студенты
+    const stringDay = date?.toLocaleDateString("en-US",{weekday: "long"}) || <br/> // пишут студенты
     const stringDate =   dateCreator(date) || <br/> // пишут студенты
 
     return (
