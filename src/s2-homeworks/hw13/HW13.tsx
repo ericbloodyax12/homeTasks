@@ -55,6 +55,7 @@ export const HW13 = () => {
                     setCode(e.message);
                     setImage(errorUnknown);
                     setText(e.name);
+                    setInfo("Error")
 
                 } else { setCode(`Код ${e.response.status}! ` )
                     setImage(e.response ?

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="feat: -change data format in time in hw9">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="feat: -finished and fix send function&#10;-add disable of buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw13/HW13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/HW13.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw15/HW15.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw15/HW15.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.check age 18" />
         <item itemvalue="Jest.Testing sorts" />
         <item itemvalue="Jest.sort name down" />
@@ -169,7 +166,7 @@
       <workItem from="1686382684885" duration="7245000" />
       <workItem from="1688897939351" duration="2269000" />
       <workItem from="1688988237968" duration="1870000" />
-      <workItem from="1695306338099" duration="6237000" />
+      <workItem from="1695306338099" duration="7765000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -395,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688989849935</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat: -finished and fix send function&#10;-add disable of buttons">
+      <created>1695317006304</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1695317006304</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +417,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add first styles" />
     <MESSAGE value="add styles" />
     <MESSAGE value="fix bugs add new property" />
     <MESSAGE value="complete HW2" />
@@ -438,7 +441,8 @@
     <MESSAGE value="feat: -add change logic, SuperRange props" />
     <MESSAGE value="feat: -add change logic, -add  themeReducer logic, themeId, add props for SuperSelect" />
     <MESSAGE value="feat: -change data format in time in hw9" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: -change data format in time in hw9" />
+    <MESSAGE value="feat: -finished and fix send function&#10;-add disable of buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: -finished and fix send function&#10;-add disable of buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
