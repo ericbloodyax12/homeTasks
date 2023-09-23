@@ -13,9 +13,14 @@ import {useSearchParams} from 'react-router-dom'
 * 5 - добавить HW14 в HW5/pages/JuniorPlus
 * */
 
+type ApiResponse = {
+    data:{
+        techs: string[]
+    }
+}
 const getTechs = (find: string) => {
     return axios
-        .get<{ techs: string[] }>(
+        .get<ApiResponse>(
             'https://samurai.it-incubator.io/api/3.0/homework/test2',
             {params: {find}}
         )
@@ -34,11 +39,15 @@ const HW14 = () => {
         setLoading(true)
         getTechs(value)
             .then((res) => {
+                 const techs = (res as unknown as ApiResponse).data.techs
                 // делает студент
 
                 // сохранить пришедшие данные
-
+                setTechs(techs)
                 //
+            })
+            .finally(() => {
+                setLoading(false)
             })
     }
 
@@ -48,14 +57,16 @@ const HW14 = () => {
 
         // добавить/заменить значение в квери урла
         // setSearchParams(
-
+        setSearchParams({find: value})
         //
     }
 
     useEffect(() => {
+        console.log(searchParams)
         const params = Object.fromEntries(searchParams)
         sendQuery(params.find || '')
         setFind(params.find || '')
+
     }, [])
 
     const mappedTechs = techs.map(t => (

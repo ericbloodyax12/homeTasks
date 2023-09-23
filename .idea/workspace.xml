@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="feat: -finished and fix send function&#10;-add disable of buttons">
+    <list default="true" id="2ed69e90-5572-42f4-bf15-23fb562e797b" name="Changes" comment="add setInfo for (x === null) case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw13/HW13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/HW13.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw14/common/c8-SuperDebouncedInput/SuperDebouncedInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/common/c8-SuperDebouncedInput/SuperDebouncedInput.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.check age 18" />
         <item itemvalue="Jest.Testing sorts" />
         <item itemvalue="Jest.sort name down" />
@@ -166,7 +169,8 @@
       <workItem from="1686382684885" duration="7245000" />
       <workItem from="1688897939351" duration="2269000" />
       <workItem from="1688988237968" duration="1870000" />
-      <workItem from="1695306338099" duration="7765000" />
+      <workItem from="1695306338099" duration="8238000" />
+      <workItem from="1695453918586" duration="11217000" />
     </task>
     <task id="LOCAL-00001" summary="create first commit">
       <created>1673182823804</created>
@@ -399,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695317006304</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add setInfo for (x === null) case">
+      <created>1695321915411</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1695321915411</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +428,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add styles" />
     <MESSAGE value="fix bugs add new property" />
     <MESSAGE value="complete HW2" />
     <MESSAGE value="* 1 - описать тип UserType  //todo DONE&#10;* 2 - указать нужный тип в useState с users //todo DONE&#10;* 3 - дописать типы и логику функции pureAddUserCallback и проверить её тестами //todo DONE&#10;* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов //todo DONE&#10;* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error //todo DONE&#10;* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback //todo DONE&#10;* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами //todo DONE" />
@@ -442,7 +452,8 @@
     <MESSAGE value="feat: -add change logic, -add  themeReducer logic, themeId, add props for SuperSelect" />
     <MESSAGE value="feat: -change data format in time in hw9" />
     <MESSAGE value="feat: -finished and fix send function&#10;-add disable of buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: -finished and fix send function&#10;-add disable of buttons" />
+    <MESSAGE value="add setInfo for (x === null) case" />
+    <option name="LAST_COMMIT_MESSAGE" value="add setInfo for (x === null) case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
